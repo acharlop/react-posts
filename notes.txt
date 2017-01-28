@@ -19,3 +19,8 @@
     c. dispatch actions from a container
     d. intercept actions in a saga
     e. fetch data from server without making ajax calls!!!
+    f. storing data on the redux store
+        1. sagas side effect to catch state change action
+        2. sagas fetch function to call server
+        3. sagas generator function to call the following action
+        4. reducer handle state change action
