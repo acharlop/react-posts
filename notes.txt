@@ -30,4 +30,8 @@
         1. create function in container
         2. add function to params propTypes in component
         3. assign function to action
-    
+    b. storing user input on redux store
+        1. define constant
+        2. import constant and define action
+        3. import action and dispatch in mapStateToProps
+        4. write data to store in reducer switch statement
