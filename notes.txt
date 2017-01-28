@@ -35,3 +35,10 @@
         2. import constant and define action
         3. import action and dispatch in mapStateToProps
         4. write data to store in reducer switch statement
+    c. add new container to existing route
+        1. add imports to promise
+        2. specify injection variable name and injection function in 'then' block
+        3. add container to parent container
+    d. define initial state with hardcoded data
+        1. in reducer set initial state to a populated data model
+        2. add model to component args and use it
