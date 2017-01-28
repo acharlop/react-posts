@@ -12,7 +12,7 @@ import Navigation from '../../components/Navigation'
 export class NavigationContainer extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <Navigation />
+      <Navigation {...this.props} />
     );
   }
 }
