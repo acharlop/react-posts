@@ -57,3 +57,4 @@
     c. use className={styles.blah} to give div a class name and style it in css
     d. for conditional styling use classnames npm package
     e. to toggle bool reducer set to opposite of current value
+    d. string multiple 'set's together in reducer to do multiple things
