@@ -18,3 +18,4 @@
     b. define action creators
     c. dispatch actions from a container
     d. intercept actions in a saga
+    e. fetch data from server without making ajax calls!!!
