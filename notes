@@ -1,9 +1,0 @@
-1) Add a new container and component
-    a. `npm run generate component`
-    b. `npm run generate container`
-    c. add component to container and pass down props
-    d. add container to its parent
-    d. add container and its reducer and sagas to routes
-        1. import into promise
-        2. add into then args
-        3. inject into then function
