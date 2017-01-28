@@ -17,3 +17,4 @@
     a. define constants
     b. define action creators
     c. dispatch actions from a container
+    d. intercept actions in a saga
