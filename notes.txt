@@ -15,4 +15,4 @@
 
 3) loading data into store from server using sagas
     a. define constants
-    b. add actions defining returns
+    b. define action creators
