@@ -43,5 +43,7 @@
         1. in reducer set initial state to a populated data model
         2. add model to component args and use it
     e. wiring up the data from the server
-        1. leave as much default as possible
+        1. leave as much default as possible in sagas
         2. validate output to console
+        3. create constants, actions, set data in sagas, and last the reducer push to store
+    
