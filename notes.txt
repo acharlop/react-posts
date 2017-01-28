@@ -24,3 +24,10 @@
         2. sagas fetch function to call server
         3. sagas generator function to call the following action
         4. reducer handle state change action
+
+4) handling events with redux-saga
+    a. intercepting user events in component
+        1. create function in container
+        2. add function to params propTypes in component
+        3. assign function to action
+    
