@@ -27,7 +27,7 @@ function Drawer({ items, selectItem, itemLabelAttr, itemKeyAttr, isDrawerOpen })
 }
 
 Drawer.propTypes = {
-  items: React.PropTypes.arrayOf.isRequired,
+  items: React.PropTypes.array.isRequired,
   selectItem: React.PropTypes.func.isRequired,
   itemLabelAttr: React.PropTypes.string.isRequired,
   itemKeyAttr: React.PropTypes.string.isRequired,

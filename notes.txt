@@ -55,3 +55,5 @@
            unmet peer dependency webpack@2.1.0-beta.15
         2. add import to app/styles.css
     c. use className={styles.blah} to give div a class name and style it in css
+    d. for conditional styling use classnames npm package
+    e. to toggle bool reducer set to opposite of current value
