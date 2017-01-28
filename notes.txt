@@ -46,4 +46,12 @@
         1. leave as much default as possible in sagas
         2. validate output to console
         3. create constants, actions, set data in sagas, and last the reducer push to store
-    
+
+5) styling
+    a. add * {box-sizing: border-box} to app/styles.css
+    b. font awesome
+        1. I had errors installing package -
+           unmet peer dependency eslint-plugin-import@1.12.0
+           unmet peer dependency webpack@2.1.0-beta.15
+        2. add import to app/styles.css
+    c. use className={styles.blah} to give div a class name and style it in css
