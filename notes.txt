@@ -59,3 +59,6 @@
     e. to toggle bool reducer set to opposite of current value
     d. string multiple 'set's together in reducer to do multiple things
     f. Start off with jsx in a component and factor it out when ready to style it
+
+6) routing
+    a. sagas intercept action and issue route change 
