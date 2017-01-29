@@ -76,3 +76,6 @@
         5. catch triggered action in saga and fetch data
         6. componentWillReceiveProps check if topic name changed and update if needed
     j. preventing code injection
+        1. check if NavigationContainer topic name is the same as the url
+           default to blank if not found on server
+        2. remove references to route so other components do know we are checking the route
