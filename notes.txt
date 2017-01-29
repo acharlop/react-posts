@@ -61,4 +61,8 @@
     f. Start off with jsx in a component and factor it out when ready to style it
 
 6) routing
-    a. sagas intercept action and issue route change 
+    a. sagas intercept action and issue route change
+    b. add 'router outlet' to homepage
+    c. generate route using `npm run generate route`
+    d. move generated route as childRoutes
+    e. sagas as singleton using syntax of reducer inject
