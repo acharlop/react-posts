@@ -66,3 +66,5 @@
     c. generate route using `npm run generate route`
     d. move generated route as childRoutes
     e. sagas as singleton using syntax of reducer inject
+    F. create selector to select route param and pass it into the container
+    g. get param in child component
