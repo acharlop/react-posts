@@ -13,16 +13,16 @@ import { requestLinks } from './actions';
 export class LinkListContainer extends React.Component { // eslint-disable-line react/prefer-stateless-function
   static propTypes = {
     requestLinks: React.PropTypes.func.isRequired,
-    routeTopicName: React.PropTypes.string.isRequired,
+    topicName: React.PropTypes.string.isRequired,
   }
 
   componentWillMount() {
-    this.props.requestLinks(this.props.routeTopicName);
+    this.props.requestLinks(this.props.topicName);
   }
 
   componentWillReceiveProps(newProps) {
-    if (newProps.routeTopicName !== this.props.routeTopicName) {
-      this.props.requestLinks(newProps.routeTopicName);
+    if (newProps.topicName !== this.props.topicName) {
+      this.props.requestLinks(newProps.topicName);
     }
   }
 

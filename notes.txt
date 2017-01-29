@@ -75,3 +75,4 @@
         4. componentWillMount and add propType validation
         5. catch triggered action in saga and fetch data
         6. componentWillReceiveProps check if topic name changed and update if needed
+    j. preventing code injection
