@@ -101,3 +101,4 @@
     b. copy and paste the form and styling
     c. create overlay and move to child route
     d. factor out reusable input text field
+    e. make sure to wire up the TextInput return as a function
