@@ -79,3 +79,7 @@
         1. check if NavigationContainer topic name is the same as the url
            default to blank if not found on server
         2. remove references to route so other components do know we are checking the route
+    k. default route
+        1. saga on topics succeed
+        2. get state from container selector
+        3. reroute if no selected topic        
