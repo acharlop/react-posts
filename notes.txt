@@ -93,3 +93,4 @@
     d. add form
     e. validate and store error if email not valid
     f. set form values onto state
+    g. reroute to last page on login and cancel
