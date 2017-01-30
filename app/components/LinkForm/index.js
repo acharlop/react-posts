@@ -12,6 +12,7 @@ import TextInput from '../TextInput';
 class LinkForm extends React.Component { // eslint-disable-line react/prefer-stateless-function
   static propTypes = {
     addLink: React.PropTypes.func.isRequired,
+    topicName: React.PropTypes.string.isRequired,
   }
 
   state = {
@@ -45,6 +46,7 @@ class LinkForm extends React.Component { // eslint-disable-line react/prefer-sta
     this.props.addLink({
       url,
       description,
+      topicName: this.props.topicName,
     });
   }
 
