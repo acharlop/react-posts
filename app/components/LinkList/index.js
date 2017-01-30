@@ -43,8 +43,8 @@ LinkList.propTypes = {
     id: React.PropTypes.string.isRequired,
   })),
   topicName: React.PropTypes.string.isRequired,
-  startAdd: React.PropTypes.string.isRequired,
   children: React.PropTypes.element.isRequired,
+  startAdd: React.PropTypes.func.isRequired,
 };
 
 export default LinkList;
