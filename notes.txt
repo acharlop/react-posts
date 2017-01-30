@@ -110,3 +110,4 @@
     c. add validation and state setting
     d. create addLink actions and reducer
     e. create api call, and make sure to send it all necessary data from saga
+    f. cancel button

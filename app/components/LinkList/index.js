@@ -43,7 +43,7 @@ LinkList.propTypes = {
     id: React.PropTypes.string.isRequired,
   })),
   topicName: React.PropTypes.string.isRequired,
-  children: React.PropTypes.element.isRequired,
+  children: React.PropTypes.element,
   startAdd: React.PropTypes.func.isRequired,
 };
 

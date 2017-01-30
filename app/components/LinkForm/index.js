@@ -13,6 +13,7 @@ class LinkForm extends React.Component { // eslint-disable-line react/prefer-sta
   static propTypes = {
     addLink: React.PropTypes.func.isRequired,
     topicName: React.PropTypes.string.isRequired,
+    addLinkCanceled: React.PropTypes.func.isRequired,
   }
 
   state = {
@@ -70,6 +71,7 @@ class LinkForm extends React.Component { // eslint-disable-line react/prefer-sta
           <div className={styles.actionContainer}>
             <div
               className={styles.button}
+              onClick={this.props.addLinkCanceled}
             >cancel</div>
 
             <div
