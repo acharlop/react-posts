@@ -108,3 +108,4 @@
     b. to trigger routing on click:
         constant, action, mapStateToProps, props, propTypes, saga, saga handler
     c. add validation and state setting
+    d. create addLink actions and reducer
