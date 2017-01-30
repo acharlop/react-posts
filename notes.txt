@@ -98,3 +98,4 @@
 
 8) creating reusable components
     a. create new component and container
+    b. copy and paste the form and styling
