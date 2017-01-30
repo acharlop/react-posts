@@ -90,4 +90,4 @@
     c. fix routing since reroute happens if no topic is selected
         1. add routing to store from reducer from LOCATION_CHANGE action.type
         2. sagas redirect only for '/' route
-    
+    d. add form
