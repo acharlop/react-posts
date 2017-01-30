@@ -82,4 +82,12 @@
     k. default route
         1. saga on topics succeed
         2. get state from container selector
-        3. reroute if no selected topic        
+        3. reroute if no selected topic
+
+7) Forms and login
+    a. class component (since will be storing state)
+    b. container, and import component send props to it
+    c. fix routing since reroute happens if no topic is selected
+        1. add routing to store from reducer from LOCATION_CHANGE action.type
+        2. sagas redirect only for '/' route
+    
