@@ -95,3 +95,6 @@
     f. set form values onto state
     g. reroute to last page on login and cancel
     h. display email if logged in
+
+8) creating reusable components
+    a. create new component and container
