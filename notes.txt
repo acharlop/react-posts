@@ -91,3 +91,4 @@
         1. add routing to store from reducer from LOCATION_CHANGE action.type
         2. sagas redirect only for '/' route
     d. add form
+    e. validate and store error if email not valid
