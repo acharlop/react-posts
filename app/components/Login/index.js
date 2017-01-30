@@ -11,6 +11,10 @@ import validator from 'email-validator';
 import classnames from 'classnames';
 
 class Login extends React.Component { // eslint-disable-line react/prefer-stateless-function
+  static propTypes = {
+    login: React.PropTypes.func.isRequired,
+  }
+
   state = {};
 
   login = () => {
@@ -25,6 +29,8 @@ class Login extends React.Component { // eslint-disable-line react/prefer-statel
     this.setState({
       errorText: null,
     });
+
+    this.props.login(email);
   }
 
   render() {
